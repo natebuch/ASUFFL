@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-sm navbar-custom justify-content-between"> 
+  <nav class="navbar">
+    <img id="fork" src="https://i.redd.it/odmx4dqcaory.jpg" width="60" height="60" alt="">
+    </span>
+    <span id="logo" class="navbar-brand mb-0 h1">S.D.I.F.F.L.</span>
+  </nav>    
+  <form class="form-inline">
+	  <%= form_tag(search_team_path) do %>
+		  <%= text_field_tag :team_name, "", class: "form-control mr-sm-2", placeholder: "Enter Team Name", autofocus: true %>
+		  <%= submit_tag('Submit', class: "btn btn-md btn-submit my-2 my-sm-0") %>
+		<% end %>
+	</form>
+</nav>
+
+ 
