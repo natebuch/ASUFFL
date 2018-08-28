@@ -37,9 +37,24 @@
   margin-top: 5px;
 }
 
+.jumbotron-landing {
+  background-image: url('/assets/dickbag.png');
+  background-size: cover;
+  height: 600px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 .jumbotron-oops {
   margin-top: 40px;
   text-align: center;
+}
+
+.jumbotron-haha {
+  background-image: url('/assets/middlefinger.jpeg');
+  height: 350px;
+  width: 1000px;
+  margin: 10px auto;
 }
 
 

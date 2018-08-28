@@ -8,7 +8,7 @@ def home
 end
 
 def landing
-    @teams = [{playerName: "Guru", playerText: "Lil' Bish"},
+    @teams = [{playerName: "guru", playerText: "Lil' Bish"},
     {playerName: "Guru1", playerText: "Lil' Bish 1"},
     {playerName: "Guru2", playerText: "Lil' Bish 2"},
     {playerName: "Guru", playerText: "Lil' Bish 3"},
@@ -23,7 +23,7 @@ def landing
     ]
 
   @teams.each do |team|
-    if team[:playerName] == session[:team_name]
+    if team[:playerName] == session[:team_name].downcase
       @team = team
     end
   end

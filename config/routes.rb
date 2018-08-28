@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   get 'oops', to: 'pages#oops'
 
+  get 'haha', to: 'pages#haha'
+
   post 'search_team', to: 'pages#search_team'
 
 end
