@@ -19,11 +19,3 @@
 //= require popper
 //= require bootstrap-sprockets
 
-$( document ).ready(function() {
-	let button = $('#input-team-button')
-    let input = $('#input-team')
-    button.on('click', (e) => {
-    	e.preventDefault()
-    	console.log(input.val())
-    })
-});
