@@ -21,3 +21,9 @@
 
 
 
+$( document ).ready(function() {
+    setTimeout(() => {
+    	$('#tease').hide()
+    	$('#glhf').show()
+    }, 5400)
+});

@@ -1,9 +1,12 @@
 
 <div class="center asu-text col-sm-12">
-	<h1>A special message for <%= @team[:playerName] %></h1>
+	<h1><%= @team[:playerName] %></h1>
 </div>
-<div class="col-sm-12 img-fluid image-test center">
-	<img src='https://i.imgur.com/F6LW6jE.png'>
+<div class="col-sm-12 img-fluid image-test center" id="tease">
+	<img src='https://media2.giphy.com/media/faIED06xwJmnu/giphy.gif' height='400'>
+</div>
+<div id="glhf" style="display: none;" class="col-sm-12 img-fluid image-test center">
+	<img src='https://i.imgur.com/THi0Sha.png'>
 </div>
 <div class="center col-sm-12">
   <%= link_to "Return to the home page ", haha_path, class: "btn btn-lg btn-custom" %>

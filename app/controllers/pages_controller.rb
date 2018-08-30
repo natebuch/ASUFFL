@@ -8,17 +8,17 @@ def home
 end
 
 def landing
-    @teams = [{inputName: "guru", playerName: "Guru1", playerText: "Lil' Bish 1"},
-    {inputName: "guru", playerName: "Guru2", playerText: "Lil' Bish 2"},
-    {inputName: "guru", playerName: "Guru", playerText: "Lil' Bish 3"},
-    {inputName: "guru", playerName: "Guru", playerText: "Lil' Bish 4"},
-    {inputName: "guru", playerName: "Guru", playerText: "Lil' Bish 5"},
-    {inputName: "guru", playerName: "Guru", playerText: "Lil' Bish 6"},
-    {inputName: "guru", playerName: "Guru", playerText: "Lil' Bish 7"},
-    {inputName: "guru", playerName: "Guru", playerText: "Lil' Bish 8"},
-    {inputName: "guru", playerName: "Guru", playerText: "Lil' Bish 9"},
-    {inputName: "guru", playerName: "Guru", playerText: "Lil' Bish 10"},
-    {inputName: "guru", playerName: "Guru", playerText: "Lil' Bish 11"}  
+    @teams = [{inputName: "the guru", playerName: "The Guru", playerText: "Lil' Bish 1", image: 1},
+    {inputName: "dirty landry", playerName: "Dirty Landry", playerText: "Lil' Bish 2", image:2},
+    {inputName: "the curse is real", playerName: "THe Curse is Real", playerText: "Lil' Bish 3", image: 3},
+    {inputName: "yahoo", playerName: "Yahoo", playerText: "Lil' Bish 4", image: 4},
+    {inputName: "butker munchers", playerName: "butkermunchers", playerText: "Lil' Bish 5", image: 5},
+    {inputName: "ugg life ii", playerName: "UGG Life II", playerText: "Lil' Bish 6", image: 6},
+    {inputName: "ask me about my goat", playerName: "Ask me about my 🐐🤢", playerText: "Lil' Bish 7", image: 7},
+    {inputName: "bernmanual sanders", playerName: "Bernmanual Sanders", playerText: "Lil' Bish 8", image: 8},
+    {inputName: "juju fruits", playerName: "JuJu Fruits", playerText: "Lil' Bish 9", image: 9},
+    {inputName: "rogersville djokovic", playerName: "Rogersville Djokovic", playerText: "Lil' Bish 10", image: 10},
+    {inputName: "the gurley gates", playerName: "The Gurley Gates", playerText: "Lil' Bish 11", image: 11}  
     ]
 
   @teams.each do |team|
@@ -32,7 +32,7 @@ def landing
   end
 end
 
-  def search_team
+  def search_team🐐
   
   end
 
