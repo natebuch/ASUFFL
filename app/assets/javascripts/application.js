@@ -21,7 +21,7 @@
 
 
 $( document ).ready(function() {
-    setTimeout(() => {
+    setTimeout(function() {
     	$('#tease').hide()
     	$('#glhf').show()
     }, 4500) 
