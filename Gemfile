@@ -11,7 +11,7 @@ gem 'rails_12factor'
 
 gem 'bootstrap', '~> 4.1.1'
 
-gem 'jquery-rails'
+ gem 'jquery-rails'
 # Use sqlite3 as the database for Active Record
 
 # Use Puma as the app server

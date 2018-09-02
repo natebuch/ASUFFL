@@ -3,8 +3,11 @@ class PagesController < ApplicationController
 def home
   if params[:team_name]
     session[:team_name] = params[:team_name]
-    redirect_to landing_path
+    redirect_to timer_path
   end
+end
+
+def timer
 end
 
 def landing

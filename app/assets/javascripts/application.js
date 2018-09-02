@@ -15,7 +15,6 @@
 
 //= require_tree .
 
-//= require jquery3
 //= require popper
 //= require bootstrap-sprockets
 
@@ -25,5 +24,7 @@ $( document ).ready(function() {
     setTimeout(() => {
     	$('#tease').hide()
     	$('#glhf').show()
-    }, 5400)
+    }, 4500) 
+  $("#circles").TimeCircles();  
 });
+
