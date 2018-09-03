@@ -1,3 +1,5 @@
+
+
 @import "bootstrap";
 
 .center {
@@ -58,5 +60,29 @@
 .btn-submit:hover {
   background-color: #FFD700;
   color: white;
+}
+
+.team-text {
+  color: white;
+  padding: 10px;
+}
+
+.team-card {
+  margin-bottom: 20px;
+}
+
+
+.team-bg {
+  border-radius: 10px;
+  background-color: #800000;
+}
+
+.asu-text2 {
+  font-size: 1.7em;
+  color: #800000;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 

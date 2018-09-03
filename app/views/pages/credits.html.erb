@@ -1,0 +1,9 @@
+<%= render 'layouts/navigation3' %>
+<% @credits.each do |credit| %>
+	<div class="center col-sm-12">
+	  <%= credit %>
+  </div>
+<% end %>
+<div class="center col-sm-12">
+  <%= link_to "Home Page", root_path, class: "btn btn-lg btn-custom" %>
+</div>

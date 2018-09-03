@@ -1,15 +1,18 @@
+
 <%= render 'layouts/navigation2' %>
 <div class="col-sm-12 img-fluid image-test center" id="tease">
-	<h3 class="center asu-text">Enjoy a preseason gif(t) in the spirit of friendly competition.</h3>
+	<h3 class="center asu-text">A gif(t) in the spirit of gamesmanship and competition.</h3>
 	<img src='https://thumbs.gfycat.com/InfamousVariableButterfly-size_restricted.gif' height='400'>
 </div>
 <div id="glhf" style="display: none;" class="col-sm-12 img-fluid image-test center">
 	<h3 class="center asu-text">Or a big bag of dicks.</h3>
 	<img src='https://i.imgur.com/ryj298h.png' height='400'>
-</div>
-<div class="center col-sm-12">
-	<%= link_to "Back to Timer", timer_path, class: "btn btn-lg btn-custom" %>
-  <%= link_to "Continue", haha_path, class: "btn btn-lg btn-custom" %>
+	<div class="col-sm-12">
+		<%= link_to "Home Page", root_path, class: "btn btn-lg btn-custom" %>
+	  <%= link_to "To the Timer", timer_path, class: "btn btn-lg btn-custom" %>
+    <%= link_to "To the Hall of Fame", hof_path, class: "btn btn-lg btn-custom" %>
+    <%= link_to "To the Teams", teams_path, class: "btn btn-lg btn-custom" %>
+   </div>
 </div>
 
 

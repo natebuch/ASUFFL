@@ -1,0 +1,20 @@
+<%= render 'layouts/navigation2' %>
+<div class="row">
+	<% @teams.each do |team| %>
+		<div class="col-sm-4">
+			<div class="card team-card">
+				<img class="card-img-top" src=<%= team[:image] %> height="200">
+	      <div class="card-body team-">
+	        <h3 class="card-title asu-text2"><%= team[:player_name] %></h3>
+	        <h5 class="card-text team-text team-bg center"><%= team[:player_text] %></h5>
+	      </div>
+	    </div>
+	  </div>
+	<% end %>
+</div>
+<div class="col-sm-12 center">
+	<%= link_to "Home Page", root_path, class: "btn btn-lg btn-custom" %>
+  <%= link_to "To the Timer", timer_path, class: "btn btn-lg btn-custom" %>
+  <%= link_to "To the Hall of Fame", hof_path, class: "btn btn-lg btn-custom" %>   	
+</div>
+  

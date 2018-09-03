@@ -8,7 +8,11 @@ Rails.application.routes.draw do
 
   get 'oops', to: 'pages#oops'
 
-  get 'haha', to: 'pages#haha'
+  get 'hof', to: 'pages#hof'
+
+  get 'credits', to: 'pages#credits'
+
+  get 'teams', to: 'pages#teams'
 
 
   post 'search_team', to: 'pages#search_team'
